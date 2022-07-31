@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/target/product/mobile.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
